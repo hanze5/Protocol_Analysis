@@ -12,7 +12,7 @@
 
 std::vector<std::string> split(std::string str, std::string pattern)
 {
-    std::string::size_type pos;
+    // std::string::size_type pos;
     std::vector<std::string> result;
     str += pattern;
     int start_pos=0;
@@ -44,7 +44,7 @@ std::vector<YAML::Node> convert_str_to_yaml_vector(std::string *data)
     std::vector<YAML::Node> nodes ;
     YAML::Node temp_node;
     std::cout<<"The result:"<<std::endl;
-    for(int i=0; i<result.size(); i++)
+    for(int i=0; i < (int)(result.size()); i++)
     {
         std::cout<<result[i]<<std::endl;
         nodes.push_back(YAML::Load(result[i].c_str()));

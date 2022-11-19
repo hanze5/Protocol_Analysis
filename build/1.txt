@@ -1,0 +1,2013 @@
+no 
+coreMaskToUse = 7
+coreMaskToUse = 6
+CPU mask: 1  15
+tempCoreMask 6
+tempCoreMask 3
+tempCoreMask 1
+In DpdkDeviceList::startDpdkWorkerThreads: core  启动
+In DpdkDeviceList::startDpdkWorkerThreads: core  启动
+asduasidbasiud926407680
+asduasidbasiud217616
+ConnectionList:
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+ConnectionList Printed.
+共享内存大小1023 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136120919
+second side: 
+	sequence number: 136120919
+
+ConnectionList Printed.
+共享内存大小1022 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136122379
+second side: 
+	sequence number: 136122379
+
+ConnectionList Printed.
+共享内存大小1021 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123839
+second side: 
+	sequence number: 136123839
+
+ConnectionList Printed.
+共享内存大小1020 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+共享内存大小1019 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664709
+second side: 
+	sequence number: 3713664709
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136123964
+second side: 
+	sequence number: 136123964
+
+ConnectionList Printed.
+共享内存大小1018 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+共享内存大小1017 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+共享内存大小1016 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+共享内存大小1015 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664785
+second side: 
+	sequence number: 3713664785
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664885
+second side: 
+	sequence number: 3713664885
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664885
+second side: 
+	sequence number: 3713664885
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664945
+second side: 
+	sequence number: 3713664945
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664945
+second side: 
+	sequence number: 3713664945
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713664945
+second side: 
+	sequence number: 3713664945
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665013
+second side: 
+	sequence number: 3713665013
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665013
+second side: 
+	sequence number: 3713665013
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665013
+second side: 
+	sequence number: 3713665013
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665013
+second side: 
+	sequence number: 3713665013
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665097
+second side: 
+	sequence number: 3713665097
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665097
+second side: 
+	sequence number: 3713665097
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665097
+second side: 
+	sequence number: 3713665097
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665165
+second side: 
+	sequence number: 3713665165
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665165
+second side: 
+	sequence number: 3713665165
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665249
+second side: 
+	sequence number: 3713665249
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665249
+second side: 
+	sequence number: 3713665249
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665249
+second side: 
+	sequence number: 3713665249
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665373
+second side: 
+	sequence number: 3713665373
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665373
+second side: 
+	sequence number: 3713665373
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665441
+second side: 
+	sequence number: 3713665441
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665441
+second side: 
+	sequence number: 3713665441
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665501
+second side: 
+	sequence number: 3713665501
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665501
+second side: 
+	sequence number: 3713665501
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124015
+second side: 
+	sequence number: 136124015
+
+ConnectionList Printed.
+共享内存大小1014 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+共享内存大小1013 
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665617
+second side: 
+	sequence number: 3713665617
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665685
+second side: 
+	sequence number: 3713665685
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665685
+second side: 
+	sequence number: 3713665685
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665685
+second side: 
+	sequence number: 3713665685
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665685
+second side: 
+	sequence number: 3713665685
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665685
+second side: 
+	sequence number: 3713665685
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665753
+second side: 
+	sequence number: 3713665753
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665753
+second side: 
+	sequence number: 3713665753
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665753
+second side: 
+	sequence number: 3713665753
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665837
+second side: 
+	sequence number: 3713665837
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665905
+second side: 
+	sequence number: 3713665905
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665905
+second side: 
+	sequence number: 3713665905
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665905
+second side: 
+	sequence number: 3713665905
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665905
+second side: 
+	sequence number: 3713665905
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665905
+second side: 
+	sequence number: 3713665905
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665905
+second side: 
+	sequence number: 3713665905
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665905
+second side: 
+	sequence number: 3713665905
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665973
+second side: 
+	sequence number: 3713665973
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713665973
+second side: 
+	sequence number: 3713665973
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666065
+second side: 
+	sequence number: 3713666065
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666181
+second side: 
+	sequence number: 3713666181
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666181
+second side: 
+	sequence number: 3713666181
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666181
+second side: 
+	sequence number: 3713666181
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666181
+second side: 
+	sequence number: 3713666181
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666181
+second side: 
+	sequence number: 3713666181
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666181
+second side: 
+	sequence number: 3713666181
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666265
+second side: 
+	sequence number: 3713666265
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666265
+second side: 
+	sequence number: 3713666265
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666333
+second side: 
+	sequence number: 3713666333
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666393
+second side: 
+	sequence number: 3713666393
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666393
+second side: 
+	sequence number: 3713666393
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666393
+second side: 
+	sequence number: 3713666393
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666393
+second side: 
+	sequence number: 3713666393
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666393
+second side: 
+	sequence number: 3713666393
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666461
+second side: 
+	sequence number: 3713666461
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666545
+second side: 
+	sequence number: 3713666545
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666721
+second side: 
+	sequence number: 3713666721
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666721
+second side: 
+	sequence number: 3713666721
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666721
+second side: 
+	sequence number: 3713666721
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666781
+second side: 
+	sequence number: 3713666781
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666781
+second side: 
+	sequence number: 3713666781
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666897
+second side: 
+	sequence number: 3713666897
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666897
+second side: 
+	sequence number: 3713666897
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666897
+second side: 
+	sequence number: 3713666897
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666897
+second side: 
+	sequence number: 3713666897
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666897
+second side: 
+	sequence number: 3713666897
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666897
+second side: 
+	sequence number: 3713666897
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666965
+second side: 
+	sequence number: 3713666965
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666965
+second side: 
+	sequence number: 3713666965
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666965
+second side: 
+	sequence number: 3713666965
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666965
+second side: 
+	sequence number: 3713666965
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713666965
+second side: 
+	sequence number: 3713666965
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667033
+second side: 
+	sequence number: 3713667033
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667033
+second side: 
+	sequence number: 3713667033
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667093
+second side: 
+	sequence number: 3713667093
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667153
+second side: 
+	sequence number: 3713667153
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667153
+second side: 
+	sequence number: 3713667153
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667153
+second side: 
+	sequence number: 3713667153
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667153
+second side: 
+	sequence number: 3713667153
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667153
+second side: 
+	sequence number: 3713667153
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667153
+second side: 
+	sequence number: 3713667153
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667213
+second side: 
+	sequence number: 3713667213
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+ConnectionList:
+tuple information: 192.168.72.128:22->192.168.72.1:54612
+first side: 
+	sequence number: 777032836
+second side: 
+	sequence number: 777032836
+
+tuple information: 192.168.72.1:56454->192.168.72.128:22
+first side: 
+	sequence number: 3713667333
+second side: 
+	sequence number: 3713667333
+
+tuple information: 20.42.73.24:443->192.168.72.128:43464
+first side: 
+	sequence number: 136124487
+second side: 
+	sequence number: 136124487
+
+ConnectionList Printed.
+
+
+Application stopped

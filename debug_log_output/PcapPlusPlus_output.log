@@ -1,1 +1,3 @@
-[INFO : src/main.cpp: main:269                       ] DpdkDevice  Name=DPDK_0', PMD='net_e1000_em', MAC Addr='00:0c:29:ac:e4:f1'
+[INFO : src/main.cpp: main:328                       ] 共有可用dpdkport 2
+[INFO : src/main.cpp: main:338                       ] DpdkDevice  Name=DPDK_0', PMD='net_e1000_em', MAC Addr='00:0c:29:ac:e4:e7', RX num = 1
+[INFO : src/main.cpp: main:338                       ] DpdkDevice  Name=DPDK_1', PMD='net_e1000_em', MAC Addr='00:0c:29:ac:e4:f1', RX num = 1

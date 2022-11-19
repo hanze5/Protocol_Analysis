@@ -15,6 +15,7 @@
 #include "TablePrinter.h"
 #include <rte_ring.h>
 #include <rte_mempool.h>
+#include <rte_ethdev.h>
 
 #include <vector>
 #include <iostream>
@@ -48,7 +49,7 @@
 #define DEFAULT_CORE_TO_USE 1
 
 /* size of a parsed string */
-#define STR_TOKEN_SIZE 512*1024
+#define PER_ELEMENT_SIZE 512*1024
 
 static const char *_MSG_POOL = "MSG_POOL";
 static const char *_MSG_RING = "MSG_RING";
@@ -79,6 +80,28 @@ void listDpdkPorts()
 			<< " PMD='" << dev->getPMDName() << "'"
 			<< std::endl;
 	}
+}
+
+/*判断是不是2的整数次幂*/
+bool isPowerOfTwo(int num)
+{
+	int r;
+
+	do
+	{
+		r = num%2;
+		num/=2;
+	} while (r == 0 && num > 0);
+	if( num>0 ) return false;
+	else return true;
+}
+
+//判断奇偶数
+bool isTimeofTwo(int num)
+{
+	int r = num%2;
+	if(r == 0) return true;
+	else return false;
 }
 
 
@@ -120,7 +143,7 @@ int main(int argc, char* argv[])
 {
 	pcpp::AppName::init(argc, argv);
 
-	std::vector<int> dpdkPortVec;
+	
 
 	// time_t dz_start_time,dz_end_time;
 	// dz_start_time = time(NULL);
@@ -133,8 +156,8 @@ int main(int argc, char* argv[])
 	uint16_t queueQuantity = DEFAULT_QUEUE_QUANTITY;
 	coreMaskToUse =  DEFAULT_CORE_TO_USE;
 	
-	dpdkPortVec.push_back(0);
-	// dpdkPortVec.push_back(1);
+
+
 
 	// extract core vector from core mask
 	std::vector<pcpp::SystemCore> coresToUse;
@@ -161,7 +184,7 @@ int main(int argc, char* argv[])
 
 
 
-	//读取配置文件信息================================================
+	//读取配置文件信息===========================================================================================
 	ini::ConfigReader config;
 	bool ret = config.ReadConfig("../config.ini");
 	if (ret == false) 
@@ -169,22 +192,52 @@ int main(int argc, char* argv[])
 		RTE_LOG(ERR,APPLICATION,"ReadConfig is Error,Cfg=%s", "config.ini");
 		return 1;
 	}
-	//判断debug模式
+	// 1. 判断debug模式
 	bool isdebug = config.ReadBool("dpdk_config", "isdebug", false);
 	if(isdebug) std::cout<<"yes debug"<<std::endl;
 	else std::cout<<"no "<<std::endl;
-	//获取工作线程数
+	// 2. 获取工作线程数
 	int num_of_cores = config.ReadInt("dpdk_config", "num_of_cores", DEFAULT_CORE_TO_USE);
 	coreMaskToUse = pow(2,num_of_cores+1)-1;
-	//获取每个工作线程分配的缓冲池大小
+	if(!isPowerOfTwo(num_of_cores)) 
+	{
+		RTE_LOG(ERR,APPLICATION,"工作线程个数必须是 (2^n) \n");
+		exit(1);
+	}
+	//3. 获取每个工作线程分配的缓冲池大小
 	mBufPoolSize = config.ReadInt("dpdk_config", "mempoolsize_per_core",DEFAULT_MBUF_POOL_SIZE);
-	//获取要开启的dpdk队列数
+	if(!isPowerOfTwo(mBufPoolSize+1)) 
+	{
+		RTE_LOG(ERR,APPLICATION,"工作线程的缓冲池大小必须是 (2^n)-1 \n");
+		exit(1);
+	}
+	//4. 获取要开启的dpdk队列数
 	queueQuantity = config.ReadInt("dpdk_config", "queues_to_use",DEFAULT_QUEUE_QUANTITY);
 	if(num_of_cores>queueQuantity)
 	{
 		RTE_LOG(ERR,APPLICATION,"工作线程数不得大于队列数 %d\n",num_of_cores);
 	}
- 
+	
+	//5. 获取共享内存的缓冲池大小
+	int per_element_size = config.ReadInt("dpdk_config", "per_element_size",512*1024);
+	if(!isPowerOfTwo(per_element_size))
+	{
+		RTE_LOG(ERR,APPLICATION,"共享内存的元素大小必须是 (2^n) \n");
+		exit(1);
+	}
+	// 6. 获取共享内存缓冲池内元素大小
+	int share_mem_pool_size = config.ReadInt("dpdk_config", "share_mem_pool_size",1023);
+	if(!isPowerOfTwo(share_mem_pool_size+1))
+	{
+		RTE_LOG(ERR,APPLICATION,"共享内存缓冲池内元素大小 (2^n)-1 \n");
+		exit(1);
+	}
+
+	// 7. 获取打印状态信息的时间间隔
+	int time_interval = config.ReadInt("dpdk_config", "time_interval",0);
+
+	
+	int maxPacketsToStore = config.ReadInt("pcap++_config", "maxPacketsToStore", DEFAULT_MAX_PACKETS_TO_STORE);
 
 	if(isdebug)
 	{
@@ -203,10 +256,19 @@ int main(int argc, char* argv[])
 	RTE_LOG(INFO,APPLICATION,"将要设置的工作线程数为 %d\n",num_of_cores);
 	RTE_LOG(INFO,APPLICATION,"将要设置的缓冲池大小 %d\n",mBufPoolSize);
 	RTE_LOG(INFO,APPLICATION,"将要设置开启dpdk队列数 %d\n",queueQuantity);
+
+	std::cout<<"将要设置的工作线程数为"<<num_of_cores<<std::endl
+			 <<"将要设置的缓冲池大小"<<mBufPoolSize<<std::endl
+			 <<"将要开启对列数"<<queueQuantity<<std::endl
+			 <<"将要设置共享内存缓冲池元素大小 "<<per_element_size<<std::endl
+			 <<"将要设置共享内存缓冲池大小为"<<share_mem_pool_size<<std::endl
+			 <<"将要设置间隔时间为"<<time_interval<<std::endl
+			 <<"maxPacketsToStore"<<maxPacketsToStore<<std::endl
+	         <<std::endl;
 	
 
 
-	//配置文件信息读取结束============================================
+	//配置文件信息读取结束======================================================================================
 
 	// initialize DPDK
 	if (!pcpp::DpdkDeviceList::initDpdk(coreMaskToUse, mBufPoolSize))
@@ -218,14 +280,14 @@ int main(int argc, char* argv[])
 
 	const unsigned flags = 0;
 	const unsigned ring_size = 64*1024;
-	const unsigned pool_size = pow(2,10)-1;
+	const unsigned pool_size = share_mem_pool_size;
 	const unsigned pool_cache = 32;
 	const unsigned priv_data_sz = 0;
 
 	
 	message_ring = rte_ring_create(_MSG_RING, ring_size, rte_socket_id(), flags);
     message_pool = rte_mempool_create(_MSG_POOL, pool_size,
-            STR_TOKEN_SIZE, pool_cache, priv_data_sz,
+            per_element_size, pool_cache, priv_data_sz,
             NULL, NULL, NULL, NULL,
             rte_socket_id(), flags);
 
@@ -257,6 +319,13 @@ int main(int argc, char* argv[])
 	createCoreVectorFromCoreMask(coreMaskToUse, coresToUse);
 
 	// collect the list of DPDK devices
+	std::vector<int> dpdkPortVec;
+	
+	for(int i = 0;i<(int)rte_eth_dev_count_avail();i++)
+	{
+		dpdkPortVec.push_back(i);
+	}
+	PCPP_LOG_INFO("共有可用dpdkport " << dpdkPortVec.size());
 	std::vector<pcpp::DpdkDevice*> dpdkDevicesToUse;
 	for (std::vector<int>::iterator iter = dpdkPortVec.begin(); iter != dpdkPortVec.end(); iter++)
 	{
@@ -278,24 +347,30 @@ int main(int argc, char* argv[])
 		}
 	}
 
-	// prepare configuration for every core
+
+	// prepare configuration for every core==================================================
 	AppWorkerConfig workerConfigArr[num_of_cores];
-
-
-	
-	for(int i = 0;i<queueQuantity;i++ )
+	//先为端口分配工作线程
+	PortConfig portConfigs[dpdkPortVec.size()];
+	for(int i  = 0; i< num_of_cores;i++)
 	{
-		if(queueQuantity<num_of_cores)
-		{
-			workerConfigArr[queueQuantity%num_of_cores].CoreId = coresToUse.at(queueQuantity%num_of_cores).Id;
-			workerConfigArr[queueQuantity%num_of_cores].RxDevice = dpdkDevicesToUse.at(0);
-			workerConfigArr[queueQuantity%num_of_cores].dz_RxQueues.push_back(i);
-		}
-		workerConfigArr[queueQuantity%num_of_cores].dz_RxQueues.push_back(i);
-		
+		workerConfigArr[i].CoreId = coresToUse.at(i).Id;
+		workerConfigArr[i].maxPacketsToStore=maxPacketsToStore;
+		workerConfigArr[i].RxDevice = dpdkDevicesToUse.at(i%dpdkPortVec.size());
+		portConfigs[i%dpdkPortVec.size()].dz_Cores.push_back(i);
 	}
+	//然后给每个端口的工作线程分配队列
+	for(int i = 0 ; i < (int)dpdkPortVec.size();i++)
+	{
+		//dz_Cores存的是core的
+		int temp = portConfigs[i].dz_Cores.size();
 
-
+		for(int j = 0 ;j< queueQuantity;j++)
+		{
+			workerConfigArr[portConfigs[i].dz_Cores[j%temp]].dz_RxQueues.push_back(j);
+		}
+	}
+	//=========================================================================================
  
  
 	// create worker thread for every core
@@ -329,38 +404,33 @@ int main(int argc, char* argv[])
 	status_output.open("../debug_log_output/status_output.log");
 	std::ostringstream sstream;
 	// Keep running while flag is on
-	while (!args.shouldStop)
-	{
-		// Sleep for 1 second
-		sleep(1);
-		//时间戳用到的
-		time_t t = time(0);
-		
-		// dz_end_time = time(NULL);
-		strftime(tmp, sizeof(tmp), "%Y-%m-%d_%H:%M:%S", localtime(&t));
-		std::string date(tmp);
+	while (!args.shouldStop )
+	{		
+		if(time_interval==0)
+		{
+			continue;
+		}
+		else
+		{
+			//时间戳用到的
+			sleep(time_interval);
+			time_t t = time(0);
+			// dz_end_time = time(NULL);
+			strftime(tmp, sizeof(tmp), "%Y-%m-%d_%H:%M:%S", localtime(&t));
+			std::string date(tmp);
 
-		pcpp::DpdkDeviceList::getInstance().Collect_Application_status();
-		dz_global_packets_num = pcpp::DpdkDeviceList::getInstance().dz_get_global_packets_num();
-		dz_global_Bytes_num = pcpp::DpdkDeviceList::getInstance().dz_get_global_Bytes_num();
+			pcpp::DpdkDeviceList::getInstance().Collect_Application_status();
+			dz_global_packets_num = pcpp::DpdkDeviceList::getInstance().dz_get_global_packets_num();
+			dz_global_Bytes_num = pcpp::DpdkDeviceList::getInstance().dz_get_global_Bytes_num();
 
-		
+			status_output << std::left
+			<< "APPLICATION:"
+			<< std::setprecision(10)
+			<< "["<< date.c_str() <<"]  共处理数据包"<<dz_global_packets_num<< " 个 ,共 " << (float)(dz_global_Bytes_num*1.0/(1024*1024*1024)) << " GB" <<std::endl;
 
-
-		status_output << std::left
-		<< "APPLICATION:"
-		<< std::setprecision(10)
-		<< "["<< date.c_str() <<"]  共处理数据包"<<dz_global_packets_num<< " 个 ,共 " << (float)(dz_global_Bytes_num*1.0/(1024*1024*1024)) << " GB" <<std::endl;
-
-
-		
-		// RTE_LOG(INFO,APPLICATION,"[%s]  共处理数据包 %ld 个 ,共 %f GB\n",date.c_str(),dz_global_packets_num,(float)(dz_global_Bytes_num*1.0/(1024*1024*1024)));
-
-		pcpp::DpdkDeviceList::getInstance().Reset_Application_status();
-		
-		
-		
-
+			pcpp::DpdkDeviceList::getInstance().Reset_Application_status();
+		}
+			
 		counter++;
 	}
 

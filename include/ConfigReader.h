@@ -95,6 +95,7 @@ namespace ini
 			{
 				return default_value;
 			}
+			
 			return atoi(it_item->second.c_str());
 		}
 		bool ReadBool(const char* section, const char* item, const bool& default_value)

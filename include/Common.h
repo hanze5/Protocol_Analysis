@@ -94,15 +94,21 @@ struct AppWorkerConfig
 	// uint16_t RxQueues_begin;
 	// uint16_t RxQueues_end;
 	std::vector<uint16_t> dz_RxQueues;
+	int maxPacketsToStore;
 
 	pcpp::DpdkDevice* TxDevice;
 
 	// AppWorkerConfig() : CoreId(MAX_NUM_OF_CORES+1), RxDevice(NULL), RxQueues_begin(0),RxQueues_end(1), TxDevice(NULL)
 	// {
 	// }
-	AppWorkerConfig() : CoreId(MAX_NUM_OF_CORES+1), RxDevice(NULL), TxDevice(NULL)
+	AppWorkerConfig() : CoreId(MAX_NUM_OF_CORES+1), RxDevice(NULL), TxDevice(NULL) ,  maxPacketsToStore(DEFAULT_MAX_PACKETS_TO_STORE)
 	{
 	}
+};
+
+struct PortConfig
+{
+	std::vector<uint16_t> dz_Cores;
 };
 
 // class GlobalConfig

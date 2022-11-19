@@ -196,48 +196,51 @@ static void MyOnMessageReadyCallback(std::string *data, std::string tuplename, v
 	}
 
 	// 2.
-
-	//  if filestream isn't open yet
-	if (iter->second.fileStream == NULL)
+	if(!global_debug)
 	{
-		// 2.1
-
-		std::string nameToCloseFile;
-		int result = GlobalConfig::getInstance().getRecentFilesWithActivity()->put(tuplename, &nameToCloseFile);
-
-		// 2.2
-
-		// 等于1，需要关闭最近未使用
-		if (result == 1)
+		//  if filestream isn't open yet
+		if (iter->second.fileStream == NULL)
 		{
-			ReassemblyMgrIter iter2 = mgr->find(nameToCloseFile);
-			if (iter2 != mgr->end())
-			{
-				if (iter2->second.fileStream != NULL)
-				{
-					// close the file
-					GlobalConfig::getInstance().closeFileSteam(iter2->second.fileStream);
-					iter2->second.fileStream = NULL;
+			// 2.1
 
-					// set the reopen flag to true to indicate that next time this file will be opened it will be opened
-					// in append mode (and not overwrite mode)
-					iter2->second.reopenFileStream = true;
+			std::string nameToCloseFile;
+			int result = GlobalConfig::getInstance().getRecentFilesWithActivity()->put(tuplename, &nameToCloseFile);
+
+			// 2.2
+
+			// 等于1，需要关闭最近未使用
+			if (result == 1)
+			{
+				ReassemblyMgrIter iter2 = mgr->find(nameToCloseFile);
+				if (iter2 != mgr->end())
+				{
+					if (iter2->second.fileStream != NULL)
+					{
+						// close the file
+						GlobalConfig::getInstance().closeFileSteam(iter2->second.fileStream);
+						iter2->second.fileStream = NULL;
+
+						// set the reopen flag to true to indicate that next time this file will be opened it will be opened
+						// in append mode (and not overwrite mode)
+						iter2->second.reopenFileStream = true;
+					}
 				}
 			}
+
+			// 2.3
+
+			// get the file name according to the 5-tuple etc.
+			std::string name = tuplename + ".txt";
+			std::string fileName = GlobalConfig::getInstance().getFileName(name);
+
+			// 2.4
+
+			// open the file in overwrite mode (if this is the first time the file is opened) or in append mode (if it was
+			// already opened before)
+			iter->second.fileStream = GlobalConfig::getInstance().openFileStream(fileName, iter->second.reopenFileStream);
 		}
-
-		// 2.3
-
-		// get the file name according to the 5-tuple etc.
-		std::string name = tuplename + ".txt";
-		std::string fileName = GlobalConfig::getInstance().getFileName(name);
-
-		// 2.4
-
-		// open the file in overwrite mode (if this is the first time the file is opened) or in append mode (if it was
-		// already opened before)
-		iter->second.fileStream = GlobalConfig::getInstance().openFileStream(fileName, iter->second.reopenFileStream);
 	}
+	
 
 	// 3.
 
@@ -423,7 +426,7 @@ private:
 	bool m_Stop;
 	uint32_t m_CoreId;
 
-	int maxPacketsToStore = DEFAULT_MAX_PACKETS_TO_STORE;
+	
 
 	// run the de-fragmentation process
 	pcpp::DefragStats stats;
@@ -463,7 +466,7 @@ public:
 		m_CoreId = coreId;
 		m_Stop = false;
 		pcpp::DpdkDevice* rxDevice = m_WorkerConfig.RxDevice;
-
+		// m_WorkerConfig.maxPacketsToStore;
 
 		pcpp::TcpReassembly tcpReassembly(q,MytcpReassemblyMsgReadyCallback, &connMgr, tcpReassemblyConnectionStartCallback,
 									  tcpReassemblyConnectionEndCallback);
@@ -472,7 +475,8 @@ public:
 		tcpReassembly.SetHandleCookie(&mgr);
 
 		// create an instance of IPReassembly
-		pcpp::IPReassembly ipReassembly(NULL, NULL, maxPacketsToStore);
+		std::cout<<"ipReassembly needs"<<m_WorkerConfig.maxPacketsToStore<<std::endl;
+		pcpp::IPReassembly ipReassembly(NULL, NULL, m_WorkerConfig.maxPacketsToStore);
 		pcpp::IPReassembly::ReassemblyStatus status;
 
 		// if no DPDK devices were assigned to this worker/core don't enter the main loop and exit
