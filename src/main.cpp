@@ -186,7 +186,7 @@ int main(int argc, char* argv[])
 
 	//读取配置文件信息===========================================================================================
 	ini::ConfigReader config;
-	bool ret = config.ReadConfig("../config.ini");
+	bool ret = config.ReadConfig("/etc/config.ini");
 	if (ret == false) 
     {
 		RTE_LOG(ERR,APPLICATION,"ReadConfig is Error,Cfg=%s", "config.ini");
