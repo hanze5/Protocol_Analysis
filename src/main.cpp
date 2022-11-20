@@ -143,7 +143,32 @@ int main(int argc, char* argv[])
 {
 	pcpp::AppName::init(argc, argv);
 
-	
+	std::string configFile = "";
+	int expectedParams = 1;
+	int paramIndex = -1;
+
+	for (int i = optind; i < argc; i++)
+	{
+		paramIndex++;
+		if (paramIndex > expectedParams)
+			EXIT_WITH_ERROR("Unexpected parameter: " << argv[i]);
+
+		switch (paramIndex)
+		{
+		case 0: {
+			configFile = argv[i];
+			break;
+		}
+
+		default:
+			EXIT_WITH_ERROR("Unexpected parameter: " << argv[i]);
+		}
+	}
+
+	if (configFile == "")
+	{
+		EXIT_WITH_ERROR("Config file name was not given");
+	}
 
 	// time_t dz_start_time,dz_end_time;
 	// dz_start_time = time(NULL);
@@ -186,7 +211,7 @@ int main(int argc, char* argv[])
 
 	//读取配置文件信息===========================================================================================
 	ini::ConfigReader config;
-	bool ret = config.ReadConfig("../config.ini");
+	bool ret = config.ReadConfig(configFile);
 	if (ret == false) 
     {
 		RTE_LOG(ERR,APPLICATION,"ReadConfig is Error,Cfg=%s", "config.ini");
